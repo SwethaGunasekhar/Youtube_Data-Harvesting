@@ -393,5 +393,4 @@ elif (question== "10. Which videos have the highest number of comments, and what
     cursor.execute(query10)
     data10=cursor.fetchall()
     df10=pd.DataFrame(data10,columns=["Video Names","Video Comment","Channel Names"])
-    df10
     st.write(df10)
